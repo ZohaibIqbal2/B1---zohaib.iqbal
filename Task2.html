@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="add()">Addition</button>
+    <button onclick="sub()">subtraction</button>
+    <button onclick="multiply()">multiplication</button>
+    <button onclick="quotient()">quotient</button>
+    <script>
+        console.log("Hello world!");
+        
+        function add(){
+            
+            var num1 =parseInt( prompt("enter number first :"));
+        
+            var num2 =parseInt( prompt("enter number second :"));
+           var  add = num1+num2 ;
+            document.write("result of addition is : " + add);
+        }
+        // for subtraction
+        function sub(){
+            
+            var num1 =parseInt( prompt("enter number first :"));
+        
+            var num2 =parseInt( prompt("enter number second :"));
+           var  sub = num1-num2 ;
+            document.write("result of subtraction is : " + sub);
+        }
+        // for multiplication
+        function multiply(){
+            
+            var num1 =parseInt( prompt("enter number first :"));
+        
+            var num2 =parseInt( prompt("enter number second :"));
+           var  multiply = num1*num2 ;
+            document.write("result of multiplation is : " + multiply);
+        }
+        // for quotient
+        function quotient(){
+            
+            var num1 =parseInt( prompt("enter number first :"));
+        
+            var num2 =parseInt( prompt("enter number second :"));
+           var  quotient = num1/num2 ;
+            document.write("result of division is : " + quotient);
+        }
+    </script>
+</body>
+</html>
